@@ -27,6 +27,8 @@ Publish the website in the given URL.
 ## PROGRAM :
 ```
 gallery.html
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,21 +37,21 @@ gallery.html
   <title>Image Gallery</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    /* Reset default margin and padding */
+   
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styling */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   padding: 20px;
 }
 
-/* Gallery container styles */
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -58,7 +60,7 @@ body {
   padding: 20px;
 }
 
-/* Gallery item styling */
+
 .gallery-item {
   width: 100%;
   overflow: hidden;
@@ -66,19 +68,19 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Image styling */
+
 .gallery-item img {
   width: 100%;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
 
-/* Hover effect for images */
+
 .gallery-item:hover img {
   transform: scale(1.05);
 }
 
-/* Add a little space around the gallery container */
+
 
   </style>
 </head>
@@ -108,9 +110,12 @@ body {
 </body>
 </html>
 
+
+
+
 ```
 
 ## OUTPUT:
-![alt text](<image gallery pic.png>)
+![alt text](<Screenshot (27).png>)
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
